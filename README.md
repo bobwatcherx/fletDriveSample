@@ -1,5 +1,11 @@
 # Flet Google Drive CRUD File
 
+
+## set http://localhost:8080 for Athorized in Google Cloud
+## and set http://localhost:8080/ for Redirect Url in Google cloud
+
+# Run file with command : flet main.py
+
 ## add file client_secrets.json from you google cloud 
 and paste in file client_secrets.json file
 
