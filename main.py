@@ -40,7 +40,7 @@ def main(page:Page):
 
 	# I WANT TO OPERATE CRUD FILE IN FOLDER THAT 
 	# SO YOU MUST GET FOLDER ID FROM GDRIVE
-	folderId = "14kewUdTIZWgUzmABc38-gHMHU4oSUuLQ"
+	folderId = "PASTE YOU FOLDER ID FROM YOU GOOGLE DRIVE GUYS"
 	allfiles = Column()
 
 
@@ -68,7 +68,7 @@ def main(page:Page):
 
 	def loadfile():
 		# SHOW ALL FILE IN FOLDER ID
-		file_list = drive.ListFile({"q":"'14kewUdTIZWgUzmABc38-gHMHU4oSUuLQ' in parents and trashed=false"}).GetList()
+		file_list = drive.ListFile({"q":"'PASTE YOU FOLDER ID FROM YOU GOOGLE DRIVE GUYS' in parents and trashed=false"}).GetList()
 		# THEN LOOP FILE
 		for x in file_list:
 			print(x)
